@@ -5,6 +5,7 @@
     {{ partial "comments/commento.html" . }}
   {{ else if $.Param "valine.enable" }}
     {{ partial "comments/valine.html" . }}
+    {{ partial "comments/gitalk.html" . }}
   {{ else if $.Param "changyan.changyanAppid" }}
     {{ partial "comments/changyan.html" . }}
   {{ else if $.Param "livere.livereUID" }}
