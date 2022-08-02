@@ -21,6 +21,19 @@
         })();
     </script>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JG07SRCZPK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-JG07SRCZPK');
+    </script>
+
 </head>
 
 <body id="root" class="theme__{{ index .Site.Params.themeOptions 0 }}">
